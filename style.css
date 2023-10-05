@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* لون الخلفية الرئيسي */
+  }
+  
+  .calculator {
+    text-align: center;
+    background-color: #fff; /* لون خلفية الآلة الحاسبة */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تأثير الظل */
+  }
+  
+  #display {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4CAF50; /* لون خلفية الأزرار */
+    color: #fff; /* لون النص داخل الأزرار */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* تحول اللون عند التحريك */
+  
+  }
+  
+  button:hover {
+    background-color: #45a049; /* تحول لون الزر عند التحريك فوقه */
+  }
+  
+  .advertisement {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* لون خلفية المساحة الإعلانية */
+    color: #fff; /* لون النص داخل المساحة الإعلانية */
+    padding: 10px;
+    text-align: center;
+  }
+  
